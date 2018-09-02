@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "globalization-tests", "globalization-tests\globalization-tests.csproj", "{782BD363-039B-4AC4-A81F-1007E204F91C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "globalization-resources", "globalization-resources\globalization-resources.csproj", "{41BE57D8-4A3A-4A59-8EBA-DCCCDF81262D}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{782BD363-039B-4AC4-A81F-1007E204F91C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782BD363-039B-4AC4-A81F-1007E204F91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782BD363-039B-4AC4-A81F-1007E204F91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782BD363-039B-4AC4-A81F-1007E204F91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BE57D8-4A3A-4A59-8EBA-DCCCDF81262D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BE57D8-4A3A-4A59-8EBA-DCCCDF81262D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BE57D8-4A3A-4A59-8EBA-DCCCDF81262D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BE57D8-4A3A-4A59-8EBA-DCCCDF81262D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
